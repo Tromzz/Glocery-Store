@@ -18,7 +18,7 @@ function Footer() {
                 </div>
 
                 <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-                    Your one-stop shop for fresh groceries and essentials, delivered right to your doorstep.
+                    Connecting farmers and vendors through smarter, secure payments.
                 </p>
 
                 {/* <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
