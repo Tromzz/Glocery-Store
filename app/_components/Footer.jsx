@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
@@ -6,17 +7,18 @@ function Footer() {
         <footer className="bg-gray-100 mt-7">
             <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="flex justify-center text-teal-600">
-                    <Image
-                     src="/logo.png"
-                     width={200}
-                     height={300}
-                     alt='logo'
-                     />
+                    <Link href={'/'}>
+                        <Image
+                            src="/logo.png"
+                            width={200}
+                            height={300}
+                            alt='logo'
+                        />
+                    </Link>
                 </div>
 
                 <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum
-                    itaque neque.
+                    Your one-stop shop for fresh groceries and essentials, delivered right to your doorstep.
                 </p>
 
                 {/* <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
