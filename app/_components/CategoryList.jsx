@@ -5,6 +5,7 @@ import React from 'react'
 function CategoryList({categoryList}) {
   return (
     <div className='mt-5'>
+        {/* COMMENTED OUT - Shopping by Category section
         <h2 className='text-primary font-bold text-2xl'>Shopping by Category</h2>
         <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-5 mt-2' >
             {categoryList.map((category, index)=>(
@@ -19,6 +20,7 @@ function CategoryList({categoryList}) {
                 </Link>
             ))}
         </div>
+        */}
     </div>
   )
 }

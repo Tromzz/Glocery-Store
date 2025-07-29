@@ -68,7 +68,7 @@ function Header() {
                 />
                 {/* Category */}
 
-
+                {/* COMMENTED OUT - Category dropdown
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <h2 className='hidden md:flex items-center gap-2 border rounded-full p-2 px-10 bg-slate-200 cursor-pointer'>
@@ -94,6 +94,7 @@ function Header() {
                         ))}
                     </DropdownMenuContent>
                 </DropdownMenu>
+                */}
 
                 {/* Search */}
                 <div className='hidden md:flex gap-3 items-center border rounded-full p-2 px-5'>
