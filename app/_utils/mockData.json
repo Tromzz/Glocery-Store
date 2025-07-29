@@ -1,0 +1,628 @@
+{
+    "sliders": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Fresh Vegetables",
+                "url": "/banner2.png"
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Vegetables",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/vegetable-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "Fruits",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/fruit-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "name": "Dairy",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/dairy-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "name": "Meat & Seafood",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/meat-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "name": "Bakery",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/bakery-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "name": "Beverages",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/beverage-icon.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "name": "Snacks",
+                "icon": {
+                    "data": {
+                        "attributes": {
+                            "url": "/snacks-icon.png"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "vendors": [
+        {
+            "id": 1,
+            "name": "Organically Grown Company",
+            "email": "info@organicgrown.com",
+            "phone": "(541) 343-7600",
+            "address": "Eugene, OR, USA",
+            "description": "Wholesale distributor of organic produce in the Pacific Northwest since 1978.",
+            "rating": 4.7,
+            "specialties": [
+                "Organic Fruits",
+                "Organic Vegetables",
+                "Herbs"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Veritable Vegetable",
+            "email": "info@veritablevegetable.com",
+            "phone": "(415) 555-0123",
+            "address": "San Francisco, CA, USA",
+            "description": "Women‑led organic produce wholesale distributor delivering across CA, NV, AZ, NM, CO & HI.",
+            "rating": 4.8,
+            "specialties": [
+                "Organic Produce",
+                "Green Fleet Logistics",
+                "Produce Merchandising"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "KeHE Distributors",
+            "email": "sales@kehe.com",
+            "phone": "(800) 927-0103",
+            "address": "Naperville, IL, USA",
+            "description": "National distributor focused on natural, organic, fresh & specialty grocery products.",
+            "rating": 4.5,
+            "specialties": [
+                "Organic and Natural Foods",
+                "Specialty Grocery",
+                "Bulk Distribution"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Four Seasons Produce, Inc.",
+            "email": "info@fsproduce.com",
+            "phone": "(717) 721-2800",
+            "address": "Ephrata, PA, USA",
+            "description": "Full‑service wholesale distributor of organic, local & conventional fresh produce in the Northeast.",
+            "rating": 4.6,
+            "specialties": [
+                "Organic Produce",
+                "Local Produce",
+                "Private Label & Custom Packs"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Robinson Fresh",
+            "email": "info@robinsonfresh.com",
+            "phone": "(952) 938-5200",
+            "address": "Eden Prairie, MN, USA",
+            "description": "Global broker and distributor of fresh produce (organic and conventional) via C.H. Robinson network.",
+            "rating": 4.4,
+            "specialties": [
+                "Organic Produce",
+                "Global Sourcing",
+                "Logistics & Transportation"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "United Natural Foods, Inc. (UNFI)",
+            "email": "info@unfi.com",
+            "phone": "(401) 528-8630",
+            "address": "Providence, RI, USA",
+            "description": "Largest wholesale distributor of natural, organic & specialty foods in North America.",
+            "rating": 4.3,
+            "specialties": [
+                "Organic Produce",
+                "Health Foods",
+                "Natural Grocery"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Suminter India Organics",
+            "email": "info@suminterindiaorganics.com",
+            "phone": null,
+            "address": "Mumbai, Maharashtra, India",
+            "description": "Multinational supplier of certified organic food & fibers, working with over 20,000 farmers across 9 states since 2003.",
+            "rating": 4.7,
+            "specialties": [
+                "Organic Spices",
+                "Oilseeds",
+                "Pulses",
+                "Herbs"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Ambrosia Organic Farm",
+            "email": "contact@ambrosiaorganicfarm.com",
+            "phone": null,
+            "address": "Goa, India",
+            "description": "India’s first organic farm (est. 1993), supplying western salad greens and exotic vegetables across India.",
+            "rating": 4.6,
+            "specialties": [
+                "Lettuce",
+                "Capsicum",
+                "Salad Vegetables"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Nature Bio‑Foods Ltd",
+            "email": "info@naturebiofoods.organic",
+            "phone": "+91-130-3051500",
+            "address": "Sonepat, Haryana, India",
+            "description": "Producer & exporter of organic rice, pulses, cereals, spices & oilseeds, working with 64,000 farming families.",
+            "rating": 4.5,
+            "specialties": [
+                "Rice",
+                "Pulses",
+                "Spices",
+                "Oilseeds"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "24 Mantra Organic (Sresta Natural Bioproducts)",
+            "email": "support@24mantra.com",
+            "phone": null,
+            "address": "Hyderabad, Telangana, India",
+            "description": "Pan‑India organic packaged food brand offering cereals, pulses, spices, juices & snacks since 2004.",
+            "rating": 4.6,
+            "specialties": [
+                "Cereals",
+                "Juices",
+                "Ready‑to‑cook Foods"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Morarka Organic (Farm2Kitchen / Down to Earth)",
+            "email": "info@morarkaorganic.in",
+            "phone": null,
+            "address": "Jaipur, Rajasthan, India",
+            "description": "Organic food, fabrics & vermi‑compost processing; direct‑to‑consumer retail under Down to Earth brand.",
+            "rating": 4.4,
+            "specialties": [
+                "Pulses",
+                "Spices",
+                "Cereals",
+                "Vermicompost"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Akshayakalpa Organic",
+            "email": "info@akshayakalpa.org",
+            "phone": null,
+            "address": "Tiptur, Karnataka, India",
+            "description": "India’s first certified organic dairy enterprise founded in 2010, also produces vegetables, honey & eggs.",
+            "rating": 4.5,
+            "specialties": [
+                "Organic Dairy",
+                "Eggs",
+                "Honey",
+                "Vegetables"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Fiddlehead Ferns",
+                "mrp": 40,
+                "sellingPrice": 40,
+                "description": "Fresh organic tomatoes, perfect for salads and cooking. Grown without pesticides.",
+                "itemQuantityType": "1 lb",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/fiddlehead-ferns.jpeg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "Fresh Carrots",
+                "mrp": 2.49,
+                "sellingPrice": 145,
+                "description": "Sweet and crunchy carrots, rich in vitamins and perfect for snacking.",
+                "itemQuantityType": "2 lbs",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/raw-carrots.jpg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "name": "Green and White Aspargus",
+                "mrp": 3.49,
+                "sellingPrice": 450,
+                "description": "Fresh baby spinach leaves, perfect for salads and smoothies.",
+                "itemQuantityType": "5 oz bag",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/Green-and-White-Aspargus.jpg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "name": "Oca",
+                "mrp": 4.99,
+                "sellingPrice": 65,
+                "description": "Crispy and sweet red apples, perfect for snacking or baking.",
+                "itemQuantityType": "3 lbs bag",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/Oca.webp"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "name": "Avocado",
+                "mrp": 309.64,
+                "sellingPrice": 309.64,
+                "description": "Ripe and sweet bananas, great source of potassium and energy.",
+                "itemQuantityType": "2 lbs bunch",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/avocado.png"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "name": "Romanesco",
+                "mrp": 5.99,
+                "sellingPrice": 90,
+                "description": "Juicy navel oranges, packed with Vitamin C and perfect for fresh juice.",
+                "itemQuantityType": "4 lbs bag",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/romanesco.png"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 1
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "name": "Cauliflower",
+                "mrp": 4.99,
+                "sellingPrice": 20,
+                "description": "Fresh whole milk from local farms, rich in calcium and vitamins.",
+                "itemQuantityType": "1 gallon",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/cauliflower.jpeg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 2
+            }
+        },
+        {
+            "id": 8,
+            "attributes": {
+                "name": "Cherry Tomatoes",
+                "mrp": 6.99,
+                "sellingPrice": 180,
+                "description": "Creamy Greek yogurt with probiotics, available in various flavors.",
+                "itemQuantityType": "32 oz container",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/cherry-tomato.webp"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 2
+            }
+        },
+        {
+            "id": 9,
+            "attributes": {
+                "name": "Wasabi Root",
+                "mrp": 16.99,
+                "sellingPrice": 875,
+                "description": "Fresh Atlantic salmon fillet, rich in omega-3 fatty acids.",
+                "itemQuantityType": "1 lb",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/wasabi-root.jpg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 3
+            }
+        },
+        {
+            "id": 10,
+            "attributes": {
+                "name": "Hop Shoots",
+                "mrp": 8.99,
+                "sellingPrice": 85000,
+                "description": "Boneless, skinless chicken breast, perfect for grilling or baking.",
+                "itemQuantityType": "1 lb",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/hop-shoot.webp"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": 3
+            }
+        },
+        {
+            "id": 11,
+            "attributes": {
+                "name": "Bell Pepper",
+                "mrp": 8.99,
+                "sellingPrice": 109,
+                "description": "Boneless, skinless chicken breast, perfect for grilling or baking.",
+                "itemQuantityType": "1 lb",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/bell-pepper.jpg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": [3,8]
+            }
+        },
+        {
+            "id": 12,
+            "attributes": {
+                "name": "Lettuce",
+                "mrp": 8.99,
+                "sellingPrice": 80,
+                "description": "Boneless, skinless chicken breast, perfect for grilling or baking.",
+                "itemQuantityType": "1 lb",
+                "images": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "url": "/vegetable/lettuce.jpg"
+                            }
+                        }
+                    ]
+                },
+                "categories": {
+                    "data": [
+                        {
+                            "attributes": {
+                                "name": "Vegetables"
+                            }
+                        }
+                    ]
+                },
+                "vendorId": [3, 8]
+            }
+        }
+    ]
+}
